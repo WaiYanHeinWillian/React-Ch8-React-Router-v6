@@ -1,5 +1,6 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
+import { useEffect } from "react";
 
 function BlogDetail(){
 
@@ -7,6 +8,15 @@ function BlogDetail(){
     let url="http://localhost:3001/blogs/"+params.id;
 
     let {data:blog,loading,error}=useFetch(url);
+
+    let navigate=new useNavigate();
+    useEffect(()=>{
+        if(error){
+            setTimeout(() => {
+                navigate("/");
+            }, 2000);
+        }
+    },[error,navigate])
 
     return (
         <div>
