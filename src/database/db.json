@@ -1,19 +1,19 @@
 {
     "blogs":[
         {
-            "id":1,
+            "id":"1",
             "title":"What is React js ?",
             "author":"Min MIn",
             "body":"Blogs are a type of regularly updated websites that provide insight into a certain topic. The word blog is short for weblog (a combined version of the words “web” and “log”). At their inception, blogs were simply an online diary where people could keep a log about their daily lives on the web.A blog works as a dynamic online platform where bloggers regularly publish and update content on specific topics. Unlike traditional websites, blogs are often more personal and conversational in tone, with authors, aka bloggers, sharing their opinions and experiences in a relatable and accessible way."
         },
         {
-            "id":2,
+            "id":"2",
             "title":"What is Laravel ?",
             "author":"Der Der",
             "body":"Blogs are a type of regularly updated websites that provide insight into a certain topic. The word blog is short for weblog (a combined version of the words “web” and “log”). At their inception, blogs were simply an online diary where people could keep a log about their daily lives on the web.A blog works as a dynamic online platform where bloggers regularly publish and update content on specific topics. Unlike traditional websites, blogs are often more personal and conversational in tone, with authors, aka bloggers, sharing their opinions and experiences in a relatable and accessible way."
         },
         {
-            "id":3,
+            "id":"3",
             "title":"What is Vue js ?",
             "author":"Min MIn",
             "body":"Blogs are a type of regularly updated websites that provide insight into a certain topic. The word blog is short for weblog (a combined version of the words “web” and “log”). At their inception, blogs were simply an online diary where people could keep a log about their daily lives on the web.A blog works as a dynamic online platform where bloggers regularly publish and update content on specific topics. Unlike traditional websites, blogs are often more personal and conversational in tone, with authors, aka bloggers, sharing their opinions and experiences in a relatable and accessible way."
